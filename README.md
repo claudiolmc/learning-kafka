@@ -1,2 +1,2 @@
 # learning-kafka
-Small projects with examples to learn about Apache Kafka
+Small example projects to learn about Apache Kafka
