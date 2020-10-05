@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "bea66da2-59b9-4b56-88df-061fa7f01968",
+		"name": "learning-kafka",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "kafka-producer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"gtin\": \"7897982206000\",\n    \"description\": \"Teclado USB Preto Bright\",\n    \"brand\": \"Bright\",\n    \"category\": \"Keyboard\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/product",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"product"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

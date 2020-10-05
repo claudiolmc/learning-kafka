@@ -1,0 +1,13 @@
+{
+	"folders": [
+        {
+            "path": "learning-kafka-consumer"
+        },
+        {
+            "path": "learning-kafka-producer"
+        }
+    ],
+    "settings": {
+        "java.configuration.updateBuildConfiguration": "automatic"
+    }
+}
